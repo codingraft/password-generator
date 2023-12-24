@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.pass_gen {
+  background: #242424;
+  padding: 33px 24px;
+  border-radius: 8px;
+  width: 500px;
+}
+
+.inp_field button {
+  border-radius: 0;
+  flex: 1;
+  background: royalblue;
+  border: none;
+  color: #fff;
+  padding: 5px 13px;
+  cursor: pointer;
+}
+.inp_field input {
+  border: none;
+  padding: 0 10px;
+  width: 90%;
+  font-size: 18px;
+}
+.inp_field {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #ffffff2b;
+}
+.pass_func {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+.inp_func {
+  display: flex;
+}
+.main h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 40px;
+}
+.inp_field input {
+  border: none;
+  padding: 8px 10px;
+  width: 90%;
+  font-size: 18px;
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+.inp_func label {
+  color: #fff;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+
+@media only screen and (min-wdth:320px) and (max-width:768px){
+  html{
+    overflow-x: hidden;
+  }
+  .pass_gen {
+    width: 95%;
+}
+}
